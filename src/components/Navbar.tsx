@@ -3,6 +3,7 @@
 import React from "react"
 import { motion } from "framer-motion"
 import { Tv, MessageSquare } from "lucide-react"
+import RaevanIcon from "@/components/ui/RaevanIcon"
 
 export default function Navbar() {
   const whatsappUrl = "https://api.whatsapp.com/send?phone=5596981131536"
@@ -19,6 +20,7 @@ export default function Navbar() {
         {/* Logo e Status Indicator */}
         <div className="flex items-center space-x-4">
           <a href="#" className="flex items-center space-x-2.5">
+            <RaevanIcon className="h-6 w-6" />
             <span className="text-xl font-heading font-black tracking-wider text-white">
               RAEVAN
             </span>

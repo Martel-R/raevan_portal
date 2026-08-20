@@ -24,6 +24,7 @@ import Navbar from "@/components/Navbar"
 import ParticleBackground from "@/components/ParticleBackground"
 import BentoGrid from "@/components/BentoGrid"
 import Terminal from "@/components/Terminal"
+import RaevanIcon from "@/components/ui/RaevanIcon"
 
 export default function Home() {
   const whatsappUrl = "https://api.whatsapp.com/send?phone=5596981131536"
@@ -134,8 +135,7 @@ export default function Home() {
               {/* Nó Central (RAEVAN Core) */}
               <div className="relative z-10 p-6 bg-obsidian-card border border-white/10 rounded-3xl flex items-center justify-center shadow-2xl shadow-neon-cyan/5">
                 <div className="text-center">
-                  <span className="text-xl font-heading font-black tracking-widest text-white">R</span>
-                  <div className="h-1 w-8 bg-neon-cyan mx-auto mt-1.5 rounded-full animate-pulse"></div>
+                  <RaevanIcon className="h-12 w-12 animate-pulse" />
                 </div>
               </div>
 
