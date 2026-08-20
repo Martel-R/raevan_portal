@@ -12,9 +12,9 @@ export default function Navbar() {
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-5xl"
+      className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-5xl animate-in"
     >
-      <div className="glassmorphism rounded-full px-6 py-3.5 flex items-center justify-between shadow-2xl shadow-black/50 border border-white/5 relative">
+      <div className="glassmorphism rounded-full px-8 sm:px-10 py-4 flex items-center justify-between shadow-2xl shadow-black/50 border border-white/5 relative">
         
         {/* Logo e Status Indicator */}
         <div className="flex items-center space-x-4">
