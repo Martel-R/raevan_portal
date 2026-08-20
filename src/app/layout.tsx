@@ -1,4 +1,4 @@
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import "./global.css"
 
 export const metadata: Metadata = {
@@ -6,7 +6,11 @@ export const metadata: Metadata = {
   description: "Arquitetura de Software de Alta Disponibilidade, Engenharia de Dados & IA de ponta com Apache Superset e Automação Preditiva de Espaços de alto padrão.",
   keywords: "raevan, raevan tech group, dev.raevan.com.br, ai.raevan.com.br, smart.raevan.com.br, stokout, passflow, supestate, automação, home assistant, controle4, iot, desenvolvedor, amapá",
   authors: [{ name: "RAEVAN Engineering Team" }],
-  viewport: "width=device-width, initial-scale=1",
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 }
 
 export default function RootLayout({
