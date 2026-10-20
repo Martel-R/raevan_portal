@@ -240,7 +240,7 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Subdomínios Mapeados */}
+          {/* Subdomínios Mapeados & Links Legais */}
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-xs font-mono text-slate-400">
             <a href="https://dev.raevan.com.br" target="_blank" rel="noopener" className="hover:text-neon-cyan transition-colors">
               dev.raevan.com.br
@@ -250,6 +250,9 @@ export default function Home() {
             </a>
             <a href="https://smart.raevan.com.br" target="_blank" rel="noopener" className="hover:text-neon-green transition-colors">
               smart.raevan.com.br
+            </a>
+            <a href="/privacidade" className="text-cyan-400 hover:text-white transition-colors underline underline-offset-4">
+              Política de Privacidade
             </a>
           </div>
 
